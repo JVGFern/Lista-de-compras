@@ -45,6 +45,7 @@ const ShoppingApp: React.FC = () => {
         items={items}
         onToggleBought={handleToggleBought}
         onDeleteItem={handleDeleteItem}
+        enableScroll={true}
       />
       <footer className="text-gray-500 text-sm mt-4">
         Made by João Vittor💜
